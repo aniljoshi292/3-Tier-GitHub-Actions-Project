@@ -16,7 +16,7 @@ jobs:
     - name: Set Up Node.js
       uses: actions/setup-node@v4
       with:
-       node-versions: '23'
+       node-version: '23'
     
     - name: Frontend Compilation (syntex check)
       run: |
