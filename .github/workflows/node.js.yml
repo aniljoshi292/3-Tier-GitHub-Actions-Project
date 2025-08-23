@@ -30,7 +30,7 @@ jobs:
 
   gitleaks-scan:
     runs-on: agent-1
-   
+    needs: compile
     steps:
      - name: Checkout Code
        uses: actions/checkout@v4
